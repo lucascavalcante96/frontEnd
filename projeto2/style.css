@@ -1,0 +1,71 @@
+@charset "Utf-8";
+
+@font-face {
+    font-family: Fonte-projeto;
+    src: url("assets/fonts/Inter-VariableFont_slnt\,wght.ttf")format("truetype");
+}
+@font-face {
+    font-family: fonte;
+    src: url("assets/fonts/OFL.txt") format("truetype");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #040404;
+    color: white;
+    font-family: Fonte-projeto;
+}
+main{
+    margin-bottom: 50px;
+}
+.container{
+    width: 400px;
+    background-color: #1F1F1F;
+    margin: auto;
+    margin-top: 80px;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+.container > img{
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    width: 150px;
+    margin-bottom: 30px;
+}
+.container > h1{
+    text-align: center;
+    margin-bottom: 15px;
+}
+#local {
+    color: greenyellow;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+#developer{
+    text-align: center;
+    color: bisque;
+    margin-bottom: 15px;
+}
+.social a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 15px;
+    background-color: #3a3838;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.social a:hover{
+    background-color: #1F1F1F;
+}
