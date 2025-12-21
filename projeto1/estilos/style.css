@@ -104,7 +104,7 @@ td span {
 /*========== END MOBILE VERSION ==========*/
 
 /*========== Tablet Version ==========*/
-@media screen and (min-width: 376px) and (max-width: 1200px) {
+@media screen and (min-width: 480px) and (max-width: 1200px) {
     body{
     background-color: #F3E5D7;
     margin-top: 64px;
