@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0D1A2D;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    background-color: #14273E;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: 15px 35px 30px #08111b;
+    margin-top: 20%;
+}
+main img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+#equilibrium{
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    display: block;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+a:hover#equilibrium{
+    color: aqua;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+    color: aqua;
+}
+p{
+    color: rgba(201, 194, 194, 0.692);
+    font-size: 19px;
+    line-height: 24px;
+}
+.data{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+#data-values{
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+#ethereum{
+    color: aqua;
+    font-weight: bold;
+}
+.data-creator{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#avatar{
+    width: 45px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+.data-creator p{
+    margin-left: 20px;
+}
+.data-creator a{
+    color: white;
+}
+.data-creator a:hover{
+    color: aqua;
+}
+
+@media screen and (min-width: 480px) {
+    main{
+        width: 450px;
+        margin: auto;
+        margin-top: 5%;
+    }
+    p{
+        font-size: 24px;
+        line-height: 32px;
+    }
+}
