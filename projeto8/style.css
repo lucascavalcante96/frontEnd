@@ -17,7 +17,7 @@ main{
     border-radius: 20px;
     text-align: center;
     padding: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 main > img{
     max-width: 100%;
@@ -52,4 +52,19 @@ main p{
 }
 #plan{
     color: #000;
+}
+a.payment{
+    text-decoration: none;
+    display: block;
+    color: rgb(136, 131, 131);
+    font-size: 18px;
+    font-weight: bold;
+}
+a.destaque{
+    padding: 15px;
+    background-color: #382AE3;
+    border-radius: 12px;
+    color: #fff;
+    margin-bottom: 30px;
+    box-shadow: 0px 12px 20px 0px #392ae3bb;
 }
