@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #DFE6FF url('images/pattern-background-mobile.svg') no-repeat;
+    background-size: cover;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    margin: 30px;
+    margin-top: 20%;
+    background-color: #fff;
+    overflow: hidden;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+main > img{
+    max-width: 100%;
+}
+main h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+main p{
+    font-size: 18px;
+    line-height: 28px;
+    color: rgb(136, 131, 131);
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F8F9FD;
+    text-align: left;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container a{
+    font-weight: bold;
+}
+.plan-order{
+    display: flex;
+    flex-flow: row wrap;
+    display: inline;
+}
+#plan{
+    color: #000;
+}
