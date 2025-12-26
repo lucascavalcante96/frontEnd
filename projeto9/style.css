@@ -16,9 +16,7 @@ main{
     text-align: center;
     padding-bottom: 20px;
 }
-main img {
-    max-width: 100%;
-}
+
 main h1{
     font-size: 30px;
     margin: 30px 20px;
@@ -39,6 +37,24 @@ main span{
 .status p{
     padding-top: 15px;
 }
+.img{
+    position: relative;
+}
+.img:after{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ca42f382;
+}
+.img img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 @media screen and (min-width:1200px) {
     main{
         margin: auto;
@@ -65,10 +81,10 @@ main span{
         line-height: 30px;
         font-size: 18px;
     }
-    .img{
-        background-size: cover;
-        max-height: 100%;
-        max-width: 100%;
+    .img img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
     .container-status{
         display: flex;
